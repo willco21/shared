@@ -1,0 +1,70 @@
+@page {
+		size: A4;
+}
+
+body > *{
+  color: #000000;
+  columns:auto 2;
+}
+
+sup { display: inline; }
+footer {
+	display: block;
+	border-top: black 1px solid;
+}
+
+h1, h2, 
+.io-github-shunshun94-scenario-handout-head,
+.io-github-shunshun94-scenario-handout {
+  columns:auto 1;
+}
+
+h2 {
+  border: 6px gray groove;
+  background-color: gray;
+  padding: 5px;
+  page-break-before: always;
+}
+
+h2.io-github-shunshun94-scenario-noPageBreak {
+	page-break-before: auto;
+}
+
+h3:before {content:"■";}
+h4:before {content:"●";}
+h5:before {content:"▼";}
+
+p {
+	text-indent:1em;
+	margin-top:2px;
+	margin-bottom:2px;
+}
+
+.io-github-shunshun94-scenario-handout-head {
+	border: black groove 6px;
+	display: inline-block;
+	width:45%;
+	padding: 2px;
+	font-size:80%;
+}
+
+.io-github-shunshun94-scenario-handout {
+	border: black ridge 6px;
+	display: inline-block;
+	width:45%;
+	padding: 2px;
+	font-size:80%;
+}
+
+.io-github-shunshun94-scenario-handout-head > h2 {
+  border: 6px gray none;
+  background-color: white;
+  padding: 1px;
+  page-break-before: auto;
+}
+
+.io-github-shunshun94-scenario-handout > h3:before {content:"";}
+.io-github-shunshun94-scenario-handout > h3 {
+	border-radius: 4px;
+	border: 3px gray solid;
+}

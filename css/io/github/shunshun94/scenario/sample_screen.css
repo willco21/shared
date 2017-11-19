@@ -1,0 +1,12 @@
+div{
+  color: #000000;
+}
+
+.io-github-shunshun94-scenario-common sup { 
+  line-height: 0;
+  padding-left: .2rem;
+  font-size: 1rem;
+}
+.io-github-shunshun94-scenario-footnote, sup, footer { 
+  display: none;
+}
